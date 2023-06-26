@@ -2,7 +2,7 @@ from qiskit.circuit import QuantumCircuit, ParameterVector
 from qiskit.circuit.library import TwoLocal
 
 import numpy as np
-from typing import Optional
+from typing import Optional, Union, List, Callable
 
 
 class DataReuploading():
